@@ -1,0 +1,199 @@
+{
+  "dataset_root": "E:\\Python\\5th-sem-moaz\\moaz\\dataset",
+  "classes": [
+    "Broken stitch",
+    "defect free",
+    "hole",
+    "horizontal",
+    "lines",
+    "Needle mark",
+    "Pinched fabric",
+    "stain",
+    "Vertical"
+  ],
+  "split_images": {
+    "train": 2135,
+    "validation": 457,
+    "test": 458
+  },
+  "removed_unreadable": 0,
+  "removed_exact_duplicates": 17,
+  "removed_cross_class_duplicates": 0,
+  "epochs": 5,
+  "test_metrics": {
+    "accuracy": 0.9082969432314411,
+    "precision_macro": 0.8312537866731592,
+    "recall_macro": 0.8816247064482359,
+    "f1_macro": 0.8465234078788558,
+    "classification_report": {
+      "Broken stitch": {
+        "precision": 1.0,
+        "recall": 0.9411764705882353,
+        "f1-score": 0.9696969696969697,
+        "support": 17.0
+      },
+      "defect free": {
+        "precision": 0.991701244813278,
+        "recall": 0.956,
+        "f1-score": 0.9735234215885947,
+        "support": 250.0
+      },
+      "hole": {
+        "precision": 0.8518518518518519,
+        "recall": 0.5476190476190477,
+        "f1-score": 0.6666666666666666,
+        "support": 42.0
+      },
+      "horizontal": {
+        "precision": 0.6521739130434783,
+        "recall": 0.7142857142857143,
+        "f1-score": 0.6818181818181818,
+        "support": 21.0
+      },
+      "lines": {
+        "precision": 0.7307692307692307,
+        "recall": 0.8636363636363636,
+        "f1-score": 0.7916666666666666,
+        "support": 22.0
+      },
+      "Needle mark": {
+        "precision": 0.8421052631578947,
+        "recall": 1.0,
+        "f1-score": 0.9142857142857143,
+        "support": 16.0
+      },
+      "Pinched fabric": {
+        "precision": 0.9411764705882353,
+        "recall": 1.0,
+        "f1-score": 0.9696969696969697,
+        "support": 16.0
+      },
+      "stain": {
+        "precision": 0.8805970149253731,
+        "recall": 0.9833333333333333,
+        "f1-score": 0.9291338582677166,
+        "support": 60.0
+      },
+      "Vertical": {
+        "precision": 0.5909090909090909,
+        "recall": 0.9285714285714286,
+        "f1-score": 0.7222222222222222,
+        "support": 14.0
+      },
+      "accuracy": 0.9082969432314411,
+      "macro avg": {
+        "precision": 0.8312537866731592,
+        "recall": 0.8816247064482359,
+        "f1-score": 0.8465234078788558,
+        "support": 458.0
+      },
+      "weighted avg": {
+        "precision": 0.9172854151531029,
+        "recall": 0.9082969432314411,
+        "f1-score": 0.9074310434885211,
+        "support": 458.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        16,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        239,
+        0,
+        0,
+        0,
+        1,
+        1,
+        8,
+        1
+      ],
+      [
+        0,
+        1,
+        23,
+        7,
+        7,
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        3,
+        15,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        19,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        59,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        13
+      ]
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+dataset/
+runs/
+weights/
+yolov8n.pt
